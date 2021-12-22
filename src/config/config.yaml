@@ -1,0 +1,6 @@
+F_R_max: 8.0e+8
+step_size: 0.0001
+epsilon: 0.000005
+schemes: ["greedy", "full_vec", "full_reverse", "fix"]
+schemes_num_vehicles: [4,6,8,10,12,14,16]
+path_log: ./src/evalution

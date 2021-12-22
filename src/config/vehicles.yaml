@@ -1,0 +1,64 @@
+l_s:
+  value: [50000,100000]
+  option: random
+  type: int
+l_r:
+  value: [5000,10000]
+  option: random
+  type: int
+c:
+  value: [500,1000]
+  option: random
+  type: int
+beta:
+  value: [1,2]
+  option: random
+  type: float
+d:
+  value: [500,1000]
+  option: random
+  type: int
+delta:
+  value: -3
+  option: fix
+  type: int
+B:
+  value: 180000
+  option: fix
+  type: int
+sigma:
+  value: 3
+  option: fix
+  type: int
+mu:
+  value: 1.0e-28
+  option: fix
+  type: float
+h_u:
+  value: [0,1]
+  option: random
+  type: float
+h_d:
+  value: [0,1]
+  option: random
+  type: float
+E_max:
+  value: 0.3
+  option: fix
+  type: float
+alpha:
+  value: 0
+  option: fix
+  type: float
+p_max:
+  value: 0.2
+  option: fix
+  type: float
+f_max:
+  value: [1.0e+8, 2.0e+8]
+  option: random
+  type: int
+p_i_RSU:
+  value: 0.5
+  option: fix
+  type: float
